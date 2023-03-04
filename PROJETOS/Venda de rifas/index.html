@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Comprar Número de Rifa</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+<h1>Sabe que hora são ?<div id="clock"></div>Agora é exatamente a hora de você comprar uma rifa!
+</h1>
+    <header class=menuprincipal>
+
+      <nav class="menu">
+    <a href="ultimos sorteados">Premios</a>
+    <a href="premios">Ultimos sorteios</a>
+    <a href="parcerias">parcerias</a>
+    <a href="sobre">sobre</a>
+    
+    
+      </nav>
+    </header>
+
+    <br>
+<hr>
+<!--Aqui se encontram as instruções para o usuário-->
+<h2 style="color:rgb(201, 3, 3)">intruções</h2>
+<ul>
+  <li>Digite o seu nome</li>
+  <li>Digite o seu email</li>
+</ul>
+<hr>
+<br>
+
+
+    <header class="comprerifas">
+        <h1>Comprar Número de Rifa</h1>
+        <form id="raffleForm">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required><br><br>
+        
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required><br><br>
+        
+          <label for="number">Escolha seu número de rifa:</label>
+
+
+          <select  id="number" name="number" required>
+            <option  value="">Selecione um número</option>
+            <option class="rifa" >1</option>
+            <option class="rifa" value="2">2</option>
+            <option  class="rifa" value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+
+            <!-- Adicione mais opções de número aqui -->
+          </select><br><br>
+        
+          <input class="botão" type="submit" value="Comprar">
+        </form>
+      
+    </header>
+
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
